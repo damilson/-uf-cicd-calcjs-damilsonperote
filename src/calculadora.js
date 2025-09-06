@@ -13,7 +13,8 @@ function divide(a, b) {
     if (b === 0) {
         throw new Error("Divisão por zero não é permitida.");
     }
-return a / b;
+    return a / b;
+}
 
 // Função de multiplicação
 function multiply(a, b) {
